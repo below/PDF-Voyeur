@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0138FD8B0677796D00E1D991 /* InfoWindowController.h in Resources */ = {isa = PBXBuildFile; fileRef = 0138FD7F0677796D00E1D991 /* InfoWindowController.h */; };
+		0138FD8C0677796D00E1D991 /* InfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138FD800677796D00E1D991 /* InfoWindowController.m */; };
+		0138FD8D0677796D00E1D991 /* VoyeurApp.h in Resources */ = {isa = PBXBuildFile; fileRef = 0138FD810677796D00E1D991 /* VoyeurApp.h */; };
+		0138FD8E0677796D00E1D991 /* VoyeurApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138FD820677796D00E1D991 /* VoyeurApp.m */; };
+		0138FD8F0677796D00E1D991 /* VoyeurAppKitExtras.h in Resources */ = {isa = PBXBuildFile; fileRef = 0138FD830677796D00E1D991 /* VoyeurAppKitExtras.h */; };
+		0138FD900677796D00E1D991 /* VoyeurAppKitExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138FD840677796D00E1D991 /* VoyeurAppKitExtras.m */; };
+		0138FD910677796D00E1D991 /* VoyeurDataSource.h in Resources */ = {isa = PBXBuildFile; fileRef = 0138FD850677796D00E1D991 /* VoyeurDataSource.h */; };
+		0138FD920677796D00E1D991 /* VoyeurDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138FD860677796D00E1D991 /* VoyeurDataSource.m */; };
+		0138FD930677796D00E1D991 /* VoyeurDocument.h in Resources */ = {isa = PBXBuildFile; fileRef = 0138FD870677796D00E1D991 /* VoyeurDocument.h */; };
+		0138FD940677796D00E1D991 /* VoyeurDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138FD880677796D00E1D991 /* VoyeurDocument.m */; };
+		0138FD950677796D00E1D991 /* VoyeurNode.h in Resources */ = {isa = PBXBuildFile; fileRef = 0138FD890677796D00E1D991 /* VoyeurNode.h */; };
+		0138FD960677796D00E1D991 /* VoyeurNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138FD8A0677796D00E1D991 /* VoyeurNode.m */; };
+		6B68530D06C151DE006DFB7E /* VoyeurFont.h in Resources */ = {isa = PBXBuildFile; fileRef = 6B68530B06C151DE006DFB7E /* VoyeurFont.h */; };
+		6B68530E06C151DE006DFB7E /* VoyeurFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B68530C06C151DE006DFB7E /* VoyeurFont.m */; };
+		6BF9C99A06C18BD800F70448 /* FontList.h in Resources */ = {isa = PBXBuildFile; fileRef = 6BF9C99806C18BD800F70448 /* FontList.h */; };
+		6BF9C99B06C18BD800F70448 /* FontList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9C99906C18BD800F70448 /* FontList.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CB82CB4911EF9E240095974F /* InfoWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB82CB4511EF9E240095974F /* InfoWindowController.xib */; };
+		CB82CB4A11EF9E240095974F /* VoyeurDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB82CB4711EF9E240095974F /* VoyeurDocument.xib */; };
+		CB86602911EF985400F7B35B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB86602711EF983E00F7B35B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0138FD7F0677796D00E1D991 /* InfoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InfoWindowController.h; sourceTree = "<group>"; };
+		0138FD800677796D00E1D991 /* InfoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InfoWindowController.m; sourceTree = "<group>"; };
+		0138FD810677796D00E1D991 /* VoyeurApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VoyeurApp.h; sourceTree = "<group>"; };
+		0138FD820677796D00E1D991 /* VoyeurApp.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VoyeurApp.m; sourceTree = "<group>"; };
+		0138FD830677796D00E1D991 /* VoyeurAppKitExtras.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VoyeurAppKitExtras.h; sourceTree = "<group>"; };
+		0138FD840677796D00E1D991 /* VoyeurAppKitExtras.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VoyeurAppKitExtras.m; sourceTree = "<group>"; };
+		0138FD850677796D00E1D991 /* VoyeurDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VoyeurDataSource.h; sourceTree = "<group>"; };
+		0138FD860677796D00E1D991 /* VoyeurDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VoyeurDataSource.m; sourceTree = "<group>"; };
+		0138FD870677796D00E1D991 /* VoyeurDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VoyeurDocument.h; sourceTree = "<group>"; };
+		0138FD880677796D00E1D991 /* VoyeurDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VoyeurDocument.m; sourceTree = "<group>"; };
+		0138FD890677796D00E1D991 /* VoyeurNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VoyeurNode.h; sourceTree = "<group>"; };
+		0138FD8A0677796D00E1D991 /* VoyeurNode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VoyeurNode.m; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		6B68530B06C151DE006DFB7E /* VoyeurFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoyeurFont.h; sourceTree = "<group>"; };
+		6B68530C06C151DE006DFB7E /* VoyeurFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoyeurFont.m; sourceTree = "<group>"; };
+		6BF9C99806C18BD800F70448 /* FontList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontList.h; sourceTree = "<group>"; };
+		6BF9C99906C18BD800F70448 /* FontList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontList.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Voyeur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyeur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB82CB4611EF9E240095974F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/InfoWindowController.xib; sourceTree = "<group>"; };
+		CB82CB4811EF9E240095974F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/VoyeurDocument.xib; sourceTree = "<group>"; };
+		CB86602811EF983E00F7B35B /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BF9C99806C18BD800F70448 /* FontList.h */,
+				6BF9C99906C18BD800F70448 /* FontList.m */,
+				6B68530B06C151DE006DFB7E /* VoyeurFont.h */,
+				6B68530C06C151DE006DFB7E /* VoyeurFont.m */,
+				0138FD7F0677796D00E1D991 /* InfoWindowController.h */,
+				0138FD800677796D00E1D991 /* InfoWindowController.m */,
+				0138FD810677796D00E1D991 /* VoyeurApp.h */,
+				0138FD820677796D00E1D991 /* VoyeurApp.m */,
+				0138FD830677796D00E1D991 /* VoyeurAppKitExtras.h */,
+				0138FD840677796D00E1D991 /* VoyeurAppKitExtras.m */,
+				0138FD850677796D00E1D991 /* VoyeurDataSource.h */,
+				0138FD860677796D00E1D991 /* VoyeurDataSource.m */,
+				0138FD870677796D00E1D991 /* VoyeurDocument.h */,
+				0138FD880677796D00E1D991 /* VoyeurDocument.m */,
+				0138FD890677796D00E1D991 /* VoyeurNode.h */,
+				0138FD8A0677796D00E1D991 /* VoyeurNode.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Voyeur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Voyeur */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Voyeur;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB86602711EF983E00F7B35B /* MainMenu.xib */,
+				CB82CB4511EF9E240095974F /* InfoWindowController.xib */,
+				CB82CB4711EF9E240095974F /* VoyeurDocument.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Voyeur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA4E5B211EF306200756F64 /* Build configuration list for PBXNativeTarget "Voyeur" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voyeur;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Voyeur;
+			productReference = 8D1107320486CEB800E47090 /* Voyeur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CBA4E5B111EF306200756F64 /* Build configuration list for PBXProject "Voyeur" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Voyeur */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Voyeur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				0138FD8B0677796D00E1D991 /* InfoWindowController.h in Resources */,
+				0138FD8D0677796D00E1D991 /* VoyeurApp.h in Resources */,
+				0138FD8F0677796D00E1D991 /* VoyeurAppKitExtras.h in Resources */,
+				0138FD910677796D00E1D991 /* VoyeurDataSource.h in Resources */,
+				0138FD930677796D00E1D991 /* VoyeurDocument.h in Resources */,
+				0138FD950677796D00E1D991 /* VoyeurNode.h in Resources */,
+				6B68530D06C151DE006DFB7E /* VoyeurFont.h in Resources */,
+				6BF9C99A06C18BD800F70448 /* FontList.h in Resources */,
+				CB86602911EF985400F7B35B /* MainMenu.xib in Resources */,
+				CB82CB4911EF9E240095974F /* InfoWindowController.xib in Resources */,
+				CB82CB4A11EF9E240095974F /* VoyeurDocument.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				0138FD8C0677796D00E1D991 /* InfoWindowController.m in Sources */,
+				0138FD8E0677796D00E1D991 /* VoyeurApp.m in Sources */,
+				0138FD900677796D00E1D991 /* VoyeurAppKitExtras.m in Sources */,
+				0138FD920677796D00E1D991 /* VoyeurDataSource.m in Sources */,
+				0138FD940677796D00E1D991 /* VoyeurDocument.m in Sources */,
+				0138FD960677796D00E1D991 /* VoyeurNode.m in Sources */,
+				6B68530E06C151DE006DFB7E /* VoyeurFont.m in Sources */,
+				6BF9C99B06C18BD800F70448 /* FontList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB82CB4511EF9E240095974F /* InfoWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB82CB4611EF9E240095974F /* English */,
+			);
+			name = InfoWindowController.xib;
+			sourceTree = "<group>";
+		};
+		CB82CB4711EF9E240095974F /* VoyeurDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB82CB4811EF9E240095974F /* English */,
+			);
+			name = VoyeurDocument.xib;
+			sourceTree = "<group>";
+		};
+		CB86602711EF983E00F7B35B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB86602811EF983E00F7B35B /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA4E5AB11EF306100756F64 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		CBA4E5AC11EF306100756F64 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		CBA4E5AD11EF306100756F64 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		CBA4E5AE11EF306100756F64 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Voyeur;
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		CBA4E5AF11EF306100756F64 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Voyeur;
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		CBA4E5B011EF306100756F64 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Voyeur;
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA4E5B111EF306200756F64 /* Build configuration list for PBXProject "Voyeur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA4E5AB11EF306100756F64 /* Development */,
+				CBA4E5AC11EF306100756F64 /* Deployment */,
+				CBA4E5AD11EF306100756F64 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		CBA4E5B211EF306200756F64 /* Build configuration list for PBXNativeTarget "Voyeur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA4E5AE11EF306100756F64 /* Development */,
+				CBA4E5AF11EF306100756F64 /* Deployment */,
+				CBA4E5B011EF306100756F64 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
